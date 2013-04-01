@@ -1,0 +1,20 @@
+{
+  "name": "statsd-oneplatform-backend",
+  "description": "A backend for StatsD to emit stats to Exosite's One Platform",
+  "author": "Dan Slimmon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danslimmon/statsd-oneplatform-backend.git"
+  },
+  "version": "0.1.0",
+  "dependencies": {
+    "logger": "~0.0.1",
+    "request": "~2.16.6"
+  },
+  "devDependencies": {
+  },
+  "engine": {
+    "node": ">=0.10.2"
+  },
+  "main": "index.js"
+}
