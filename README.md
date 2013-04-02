@@ -46,8 +46,11 @@ backend running. They are:
 
 What goes in `onepMetrics` depends on the [type of metric][metric types]
 you want to store. The name formats match those used in the graphite
-backend. And if you have any trouble, put your StatsD server in debug
-mode; the backend produces a lot of debug output.
+backend. You'll have to provision the corresponding data sources on One
+Platform.
+
+If you have any trouble, put your StatsD server in debug mode; the
+backend produces a lot of debug output.
 
 For a counter, for example, you could have:
 
